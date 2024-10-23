@@ -1,0 +1,90 @@
+.card {
+  background: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.ticket-id {
+  color: #6b6b6b;
+  font-size: 14px;
+}
+
+.user-avatar {
+  width: 24px;
+  height: 24px;
+  background: #f4f5f8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  position: relative;
+}
+
+.status-indicator {
+  width: 8px;
+  height: 8px;
+  background: #ddd;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border: 2px solid white;
+}
+
+.status-indicator.available {
+  background: #00b341;
+}
+
+.card-title {
+  display: flex;
+  justify-items: flex-start;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.card-footer {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.priority-tag {
+  padding: 2px 8px;
+  background: #f4f5f8;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.feature-tag {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  background: #f4f5f8;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  font-size: 12px;
+  color: #6b6b6b;
+}
+
+.availability-indicator {
+  width: 8px;
+  height: 8px;
+  background: #ddd;
+  border-radius: 50%;
+}
+
+.availability-indicator.available {
+  background: #00b341;
+}

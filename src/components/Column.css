@@ -1,0 +1,52 @@
+.column {
+  flex: 0 0 300px;
+  min-width: 300px;
+}
+
+.column-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-icon {
+  width: 16px;
+  height: 16px;
+  color: currentColor;
+}
+
+.column-title {
+  font-weight: 500;
+}
+
+.ticket-count {
+  color: #6b6b6b;
+  font-size: 14px;
+}
+
+.header-right {
+  display: flex;
+  gap: 8px;
+}
+
+.icon-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.tag-icon {
+  width: 12px;
+  height: 12px;
+}
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
